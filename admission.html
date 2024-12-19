@@ -1,0 +1,38 @@
+<!-- Admission Form (admissions.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - KGNJ Academy</title>
+    <link rel="stylesheet" href="admission.css">
+</head>
+<body>
+    <section id="admission-form">
+        <h2>Admission Form</h2>
+        <form action="#" method="POST" id="admission-form-details">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required placeholder="Enter your full name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+            <label for="course">Preferred Course:</label>
+            <select id="course" name="course" required>
+                <option value="">Select a Course</option>
+                <option value="science">Science</option>
+                <option value="arts">Arts</option>
+                <option value="technology">Technology</option>
+            </select>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+</body>
+</html>

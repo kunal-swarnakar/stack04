@@ -1,0 +1,72 @@
+/* Contact Section Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#contact {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+#contact h2 {
+    text-align: center;
+    color: #003366;
+    font-size: 2rem;
+    margin-bottom: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #003366;
+}
+
+form input,
+form textarea {
+    padding: 1em;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #003366;
+    outline: none;
+    background-color: #fff;
+}
+
+form button {
+    padding: 1em;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #005b9f;
+}

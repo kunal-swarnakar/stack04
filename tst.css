@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 51, 102, 0.8);
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+#admission-form {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 2em;
+}
+
+#admission-form h2 {
+    text-align: center;
+    color: #003366;
+    font-size: 2rem;
+    margin-bottom: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #003366;
+}
+
+form input,
+form select {
+    padding: 1em;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #003366;
+    outline: none;
+    background-color: #fff;
+}
+
+form button {
+    padding: 1em;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #005b9f;
+}
+section {
+    padding: 2em;
+    text-align: center;
+    background-color: rgba(0, 51, 102, 0.7);
+    margin: 1em;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+form button {
+    padding: 0.5em 1em;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #002244;
+}
+
+footer {
+    background-color: rgba(0, 51, 102, 0.8);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+img{
+    border: 1px;
+    border-radius: 50px;
+}
